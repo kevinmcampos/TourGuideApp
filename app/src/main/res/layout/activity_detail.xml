@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/place_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/lagoinha_do_leste" />
+
+        <TextView
+            android:id="@+id/place_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#88000000"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            tools:text="Lagoinha do Leste" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/place_neightborhood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:text="Pântano do Sul" />
+
+    <TextView
+        android:id="@+id/place_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="16sp"
+        tools:text="A Praia da Lagoinha do Leste é uma praia brasileira, situada na cidade de Florianópolis, no estado de Santa Catarina. Está localizada no sudeste da Ilha de Santa Catarina. Recebe o mesmo nome da lagoa em formato de 'S' presente na praia." />
+    </LinearLayout>
+
+</ScrollView>

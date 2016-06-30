@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+
+    <string name="city_places">Florianópolis Places</string>
+    <string name="place_details">Place Details</string>
+
+    <string name="attractions">ATTRACTIONS</string>
+    <string name="beaches">BEACHES</string>
+    <string name="companies">COMPANIES</string>
+    <string name="restaurants">RESTAURANTS</string>
+</resources>
